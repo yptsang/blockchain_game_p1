@@ -1,0 +1,61 @@
+version: "3.8"
+
+services:
+
+  maria_db:
+    image: mariadb:10.6.5
+    restart: always
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    environment:
+      MARIADB_DATABASE: bclp_db
+      MARIADB_USER: bclp_api
+      MARIADB_PASSWORD: hsu_bclp_db_api
+      MARIADB_ROOT_PASSWORD: hsu_bclp_db_root
+    ports:
+      - "3306:3306"
+
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: "./server"
+    depends_on:
+      - maria_db
+    volumes:
+      - /bclp/server/node_modules
+      - ./server:/app
+    ports:
+      - "3001:3001"
+    environment:
+      DB_HOST: maria_db
+      MARIADB_DATABASE: bclp_db
+      MARIADB_USER: bclp_api
+      MARIADB_PASSWORD: hsu_bclp_db_api
+      MARIADB_ROOT_PASSWORD: hsu_bclp_db_root
+      NODE_ENV: "production"
+
+  client:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile
+      context: ./builed_client
+    volumes:
+      - /bclp/client/node_modules
+      - ./client:/app
+    ports:
+      - "3000:8080"
+    environment:
+      EXPRESS_SERVER_URL: /api
+      SOCKET_SERVER_URL: /

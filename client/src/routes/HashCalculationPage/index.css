@@ -1,0 +1,25 @@
+.hc_start {
+    background-color: #8e1bbb;
+}
+
+.hash_border {
+    margin: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 5%;
+
+}
+
+.hash_border_text {
+    padding-left: 2%;
+    padding-right: 2%;
+    max-height: 450px;
+    scroll-behavior: auto;
+    overflow: scroll;
+}
+
+.hc_start:hover{
+    background-color: #640888;
+}

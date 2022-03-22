@@ -1,0 +1,21 @@
+.PointPage_RankTable_div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    height: 350px;
+}
+
+.PointPage_Export_div{
+    text-align: center;
+    width: 100%;
+}
+
+.PointPage_Export_btn{
+    font-size: 15px;
+    height: 40px;
+    width: 60%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}

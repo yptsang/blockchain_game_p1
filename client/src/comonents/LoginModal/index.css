@@ -1,0 +1,19 @@
+.loginModalForm{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.setShowLoginModal_div_Login{
+    text-align: center;
+    width: 100%;
+}
+
+.setShowLoginModal_btn_Login{
+    font-size: 15px;
+    height: 40px;
+    width: 40%;
+    border:none;
+    color: white;
+    background-color: #640888;
+    border-radius: 0.3rem;
+}

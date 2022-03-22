@@ -1,0 +1,58 @@
+.ChainedBlockDetailPage_submit_div{
+    text-align: center;
+    width: 100%;
+}
+
+.ChainedBlockDetailPage_submit_btn{
+    height: 40px;
+    width: 40%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.ChainedBlockDetailPage_main{
+    width: 100%;
+    height: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ChainedBlockDetailPage_HashBox{
+    display:flex;
+}
+
+.ChainedBlockDetailPage_HashBox_left{
+    width: 20%;
+}
+
+.ChainedBlockDetailPage_HashBox_right{
+    width: 80%;
+}
+
+@media screen and (max-height: 850px), screen and (max-width: 1500px) {
+    .ChainedBlockDetailPage_HashBox_left{
+        width: 50%;
+    }
+    
+    .ChainedBlockDetailPage_HashBox_right{
+        width: 50%;
+    }
+}
+
+@media screen and (max-height: 300px), screen and (max-width: 400px) {
+    .ChainedBlockDetailPage_HashBox_left{
+        width: 80%;
+    }
+    
+    .ChainedBlockDetailPage_HashBox_right{
+        width: 20%;
+    }
+}
+
+@media screen and (max-height: 280px), screen and (max-width: 350px) {
+    .ChainedBlockDetailPage_HashBox{
+        font-size: 10px;
+    }
+}

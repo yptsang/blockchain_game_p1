@@ -1,0 +1,19 @@
+.MinerDashboardPage{
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.MinerDashboard_titlebox{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 1.15rem;
+}
+
+.MinerDashboard_titletimebox{
+    width: 100px;
+    color: greenyellow;
+    border: 1px solid black;
+    text-align: center;
+}

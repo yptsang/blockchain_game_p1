@@ -1,0 +1,99 @@
+.BlockDataPage_topic{
+    width: 100%;
+    font-weight:bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.BlockDataPage_numOfBlock{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.BlockDataPage_Demand_div{
+    width: 100%;
+    height: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.BlockDataPage_Demand{
+    border: 1.5px solid black;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    background-color: #b9fc62b9;
+    border-radius: 1.5rem;
+    margin:0 auto;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.BlockDataPage_submit_div{
+    text-align: center;
+    width: 100%;
+}
+
+.BlockDataPage_Demand_topic{
+    padding-top: 0.5rem;
+    font-weight:bold;
+    text-decoration:underline;
+    font-size: 20px;
+}
+
+.BlockDataPage_Demand_lastItem{
+    padding-bottom: 0.5rem;
+}
+
+.BlockDataPage_submit_btn{
+    height: 40px;
+    width: 40%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.BlockDataPage_HashBox{
+    display:flex;
+}
+
+.BlockDataPage_HashBox_left{
+    width: 20%;
+}
+
+.BlockDataPage_HashBox_right{
+    width: 80%;
+}
+
+@media screen and (max-height: 850px), screen and (max-width: 1500px) {
+    .BlockDataPage_HashBox_left{
+        width: 50%;
+    }
+    
+    .BlockDataPage_HashBox_right{
+        width: 50%;
+    }
+}
+
+@media screen and (max-height: 400px), screen and (max-width: 500px) {
+    .BlockDataPage_HashBox{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height: 300px), screen and (max-width: 370px) {
+    .BlockDataPage_HashBox{
+        flex-flow: column;
+    }
+
+    .BlockDataPage_HashBox_left{
+        width: 100%;
+    }
+    
+    .BlockDataPage_HashBox_right{
+        width: 100%;
+    }
+}

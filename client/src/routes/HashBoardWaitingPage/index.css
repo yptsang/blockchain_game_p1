@@ -1,0 +1,27 @@
+.HashBoardWaitingPage_mainTable{
+    width: 100%;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.HashBoardWaitingPage_waiting_div{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.HashBoardWaitingPage_waiting_btn{
+    height: 40px;
+    width: 80%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.HashBoardWaitingPage_title{
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

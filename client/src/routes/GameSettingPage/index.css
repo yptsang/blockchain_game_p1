@@ -1,0 +1,104 @@
+.GameSettingPage_topic {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #8e1bbb;
+    font-weight: bold;
+}
+
+.GameSettingPage_Form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.GameSettingPage_GameList_topic {
+    width: 100%;
+    font-size: 30px;
+    color: #8e1bbb;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.GameSettingPage_GameList {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.GameSettingPage_gamebox {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    white-space: pre-line;
+    font-size: 15px;
+    border-radius: 0.7rem;
+    background-color: rgba(122, 122, 122, 0.493);
+    border-style: solid;
+}
+
+.GameSettingPage_gameready {
+    background-color: rgb(255, 255, 255);
+}
+
+.GameSettingPage_gameready:hover {
+    background-color: rgb(169, 230, 177);
+}
+
+.GameSettingPage_gameSelected {
+    background-color: rgb(169, 230, 177);
+}
+
+.GameSettingPage_DataList {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.GameSettingPage_DataList_table {
+    width: 100%;
+}
+
+.GameSettingPage_DataList_td {
+    text-align: center;
+    width: 33%;
+}
+
+.GameSettingPage_DataList_topic {
+    text-align: left;
+    font-size: 30px;
+    color: #8e1bbb;
+    font-weight: bold;
+}
+
+.GameSettingPage_DataList_btn {
+    width: 80%;
+    height: 50px;
+    white-space: pre-line;
+    font-size: 15px;
+    border-radius: 0.7rem;
+    background-color: rgba(163, 163, 163, 0.342);
+    border-style: solid;
+}
+
+.GameSettingPage_DataList_btn:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.GameSettingPage_submit_div {
+    text-align: center;
+    width: 100%;
+}
+
+.GameSettingPage_submit_btn {
+    height: 40px;
+    width: 50%;
+    border: none;
+    color: white;
+    background-color: #8e1bbb;
+    border-radius: 0.3rem;
+}
+
+.fileUpload{
+    display: none;
+}

@@ -1,0 +1,34 @@
+.TitleBar_toptitle{
+    font-weight:bold;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    font-size: 25px;
+}
+
+.TitleBar_div{
+    width: 100%;
+}
+
+.TitleBar_bar{
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243,176,228);
+    padding-top: 0.5rem;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+}
+
+@media screen and (max-width: 1280px) {
+    .TitleBar_toptitle{
+        font-size: 20px;
+    }
+}

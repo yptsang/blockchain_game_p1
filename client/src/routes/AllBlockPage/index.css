@@ -1,0 +1,36 @@
+.AllBlockPage_topic{
+    width: 100%;
+    font-weight:bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.AllBlockPage_blocktopic{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.AllBlockPage_BlockList{
+    overflow-y: scroll;
+    border:none;
+    width: 100%;
+    height: 450px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.AllBlockPage_back_div{
+    text-align: center;
+    width: 100%;
+}
+
+.AllBlockPage_back_btn{
+    height: 40px;
+    width: 45%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}

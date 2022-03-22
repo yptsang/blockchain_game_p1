@@ -1,0 +1,78 @@
+.table_btn_true {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: violet;
+}
+
+.table_btn_true:hover {
+    background-color: #B9E9FF;
+}
+
+.table_btn_false {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: lightgray;
+}
+
+.table_btn_false:hover {
+    background-color: #B9E9FF;
+}
+
+.table_btn_detail {
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: lightgray;
+}
+
+.table_btn_detail:hover {
+    background-color: #B9E9FF;
+}
+
+@media screen and (max-width: 482px) {
+    td {
+        font-size: 8px;
+    }
+
+    .table_btn_true {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .table_btn_false {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .table_btn_detail {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    td {
+        font-size: 5px;
+    }
+
+    .table_btn_true {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .table_btn_false {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .table_btn_detail {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}

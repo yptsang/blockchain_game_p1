@@ -1,0 +1,51 @@
+.VerificationPage_mainTable {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.VerificationPage_back_div {
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.VerificationPage_back_btn {
+
+    height: 40px;
+    width: 45%;
+    border: none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.VerificationPage_topicBox {
+    width: auto;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+.VerificationPage_titlebox {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.VerificationPage_title_font {
+    font-size: 25px;
+}
+
+.VerificationPage_title_btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 68, 0, 0.836);
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 15px;
+}

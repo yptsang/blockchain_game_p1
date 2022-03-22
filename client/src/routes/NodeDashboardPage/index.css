@@ -1,0 +1,43 @@
+.NodeDashboard_mainTable{
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.NodeDashboard_submit_div{
+    text-align: center;
+    width: 100%;
+}
+
+.NodeDashboard_submit_btn{
+    height: 40px;
+    width: 80%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.NodeDashboard_titlebox{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.NodeDashboard_titlebox_right{
+    padding-right: 1.05rem;
+}
+
+.NodeDashboard_titletimebox_top{
+    width: 100px;
+    color: rgb(19, 185, 44);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.NodeDashboard_titletimebox_down{
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+}

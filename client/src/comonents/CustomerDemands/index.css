@@ -1,0 +1,94 @@
+.CustomerDemands_box{
+    border: 3px solid black;
+    width: 60%;
+    height: 140px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    margin:0 auto;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.CustomerDemands_boxPadding{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    scroll-snap-align: start;
+}
+
+.CustomerDemands_firstItem{
+    padding-top: 0.5rem;
+}
+
+.CustomerDemands_lastItem{
+    padding-bottom: 0.5rem;
+}
+
+.CustomerDemands_box:hover{
+    color: black;
+}
+
+.CustomerDemands_HashBox{
+    display:flex;
+}
+
+.CustomerDemands_HashBox_left{
+    width: 40%;
+}
+
+.CustomerDemands_HashBox_right{
+    width: 50%;
+}
+
+@media screen and (max-width: 1400px), screen and (max-height: 800px) {
+    .CustomerDemands_HashBox_left{
+        width: 60%;
+    }
+    
+    .CustomerDemands_HashBox_right{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+    .CustomerDemands_box{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px), screen and (max-height: 610px) {
+    .CustomerDemands_box{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .CustomerDemands_box{
+        height: 160px;
+    }
+}
+
+@media screen and (max-height: 400px), screen and (max-width: 359px) {
+    .CustomerDemands_HashBox{
+        flex-flow: column;
+    }
+
+    .CustomerDemands_box{
+        height: 200px;
+    }
+
+    .CustomerDemands_HashBox_left{
+        width: 100%;
+    }
+    
+    .CustomerDemands_HashBox_right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 270px), screen and (max-width: 260px) {
+    .CustomerDemands_box{
+        height: 260px;
+    }
+}

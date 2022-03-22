@@ -1,0 +1,42 @@
+.PasscodeModal_div_Copy{
+    width: 100%;
+    height: 20%;
+}
+
+.PasscodeModal_btn_Copy{
+    font-size: 15px;
+    height: 25px;
+    width: 30%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}
+
+.PasscodeModal_div_Continue{
+    width: 100%;
+}
+
+.PasscodeModal_btn_Continue{
+    font-size: 15px;
+    height: 40px;
+    width: 40%;
+    border:none;
+    color: white;
+    background-color: #640888;
+    border-radius: 0.3rem;
+}
+
+.PasscodeModal_body{
+    height: 300px;
+    text-align: center;
+}
+
+.PasscodeModal_title{
+    font-size: 25px;
+    height: 30%;
+}
+
+.PasscodeModal_PasscodeBox{
+    height: 50%;
+}

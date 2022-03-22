@@ -1,0 +1,15 @@
+.ErrorModal_ModalStyle {
+    color: black;
+}
+
+.ErrorModal_Modalbc {
+    background-color: white;
+}
+
+.ErrorModal_ModalCloasebtn {
+    background: rgba(148, 14, 14, 0.288);
+}
+
+.ErrorModal_ModalCloasebtn:hover {
+    background: rgba(219, 38, 38, 0.836);
+}

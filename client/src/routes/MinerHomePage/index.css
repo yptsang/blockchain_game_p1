@@ -1,0 +1,33 @@
+.minter_h_border {
+    background-color: gainsboro;
+    padding: 2.5%;
+    border-radius: 20px;
+}
+
+.minter_h_btns {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.minter_h_btns div a {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.PasscodeModal_div_Copy{
+    width: 100%;
+    height: 20%;
+}
+
+.PasscodeModal_btn_Copy{
+    font-size: 15px;
+    height: 25px;
+    width: 30%;
+    border:none;
+    color: black;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+}

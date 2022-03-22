@@ -1,0 +1,26 @@
+.modal_body {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.setShowLoginModal_div_back {
+    text-align: center;
+    width: 100%;
+}
+.btn_div_back{
+    font-size: 20px;
+    height: 40px;
+    width: 40%;
+    border:none;
+    color: black;
+    background-color: #d1d0d1;
+    border-radius: 0.3rem;
+}
+.modal_point{
+    color: blue;
+}

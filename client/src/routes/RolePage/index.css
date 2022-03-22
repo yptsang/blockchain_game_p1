@@ -1,0 +1,72 @@
+ 
+.mobile-phone{
+    font-size: 40px;
+}
+.card_body{
+    padding-top: 30%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 40%;
+}
+.topbar {
+    background-color: rgb(243, 176, 228);
+    padding-top: 0.5rem;
+}
+
+
+.toptitle {
+    color: purple;
+}
+
+.roles {
+    padding-top: 5%;
+    padding-left: 1rem;
+}
+
+.chooserole {
+    padding-top: 10%;
+    color: purple;
+}
+
+.row {
+    -bs-gutter-x: 0;
+}
+
+
+
+
+ 
+
+@media screen and (max-width: 800px) {
+  
+    .mobile-phone {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-height: 900px) {
+    
+    .mobile-phone {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .mobile-phone {
+        font-size: 40px;
+    }
+    .card_body{
+        padding-top: 20%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 30%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .mobile-phone {
+        font-size: 20px;
+    }
+  
+}
