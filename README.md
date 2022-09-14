@@ -5,7 +5,7 @@ To spread knowledge of blockchain technology, an online educational game for lea
 
 In this repository, the entire learning game is packaged as a docker file for distribution and re-implementation. 
 
-To faciliate the deployment of the proposed learning game, you may refer to the videos on Youtube (): 
+To faciliate the deployment of the proposed learning game, you may refer to the videos on Youtube: 
 
 Game Introduction: https://youtu.be/hJlu80P_fXA
 
